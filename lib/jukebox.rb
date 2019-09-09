@@ -36,8 +36,7 @@ end
 end
 
 def exit_jukebox
-  user_input = gets.strip
-  user_input == "exit"
+  user_input = "exit"
   puts "Goodbye"
 end
 
