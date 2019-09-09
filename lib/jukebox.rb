@@ -45,7 +45,7 @@ def run(songs)
   user_input = gets.strip
   if user_input == "play"
     play(songs)
-     do user_input == "list"
+     elsif user_input == "list"
       list(songs)
       if user_input == "exit"
         exit_jukebox
